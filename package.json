@@ -1,0 +1,32 @@
+{
+  "name": "activity-5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "start:dev": "nodemon --ext ts --exec ts-node server.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "rootpath": "^0.1.2",
+    "sequelize": "^6.3.4"
+  },
+  "author": "Chad RV G. Abcede",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^20.17.24",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
